@@ -1,0 +1,26 @@
+.input {
+  width: 60%;
+  padding: 2px;
+  font-size: 16px;
+  border-radius: 2%;
+}
+.recipe{
+  padding: 2px;
+  margin: auto;
+}
+.recipe:hover {
+  background-color: rosybrown;
+}
+.dropdown{
+ border: 1px solid rgb(45, 30, 30);
+  width: 60%;
+  max-height:300px;
+margin: auto;
+    overflow-y: scroll;
+}
+.container{
+   display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin: auto;
+}
