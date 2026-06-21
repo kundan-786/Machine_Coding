@@ -10,10 +10,10 @@ const StarRating = () => {
    console.log(rating);
   return (
     
-    <div className='container'>
+    <div className='container2'>
       <div className="starts">
         {  arr.map((ele)=>{
-          return <span key={ele} className={`star ${rating>=ele? 'bg-brwn':''}`} onClick={(e)=>handleHover(e,ele)}>
+          return <span key={ele} className={`star ${rating>=ele? 'bg-brwn':''}`} onMouseOver={(e)=>handleHover(e,ele)} onClick={(e)=>handleHover(e,ele)}>
            {ele}
           </span>
         })
