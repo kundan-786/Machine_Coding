@@ -27,9 +27,11 @@ const ProgressBar = ({progess}) =>{
 }
 const Progress = () => {
 
-  return (<>
-  <ProgressBar progess={100}/>
-    <ProgressBar progess={32}/></>
+  return (
+    <>
+        <ProgressBar progess={100}/>
+        <ProgressBar progess={32}/>
+    </>
   )
 
 }

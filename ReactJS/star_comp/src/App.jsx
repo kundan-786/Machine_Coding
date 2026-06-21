@@ -4,14 +4,32 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import StarRating from './components/StarRating'
 import Progress from './components/Progress'
+import Accordian from './components/Accordian'
+import ToDoList from './components/ToDoList'
 
 function App() {
+  const accordionData = [
+    {
+      title: 'HTML Section',
+      content: 'Content for section 1'
+    },
+    {
+      title: 'CSS Section',
+      content: 'Content for section 2'
+    },
+    {
+      title: 'JavaScript Section',
+      content: 'Content for section 3'
+    }
+  ];
 
 
   return (
     <>
      {/* <StarRating /> */}
-     <Progress/>
+     {/* <Accordian data={accordionData} /> */}
+     {/* <Progress/> */}
+     <ToDoList/>
     </>
   )
 }
