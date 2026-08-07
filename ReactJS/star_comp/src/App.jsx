@@ -6,6 +6,8 @@ import StarRating from './components/StarRating'
 import Progress from './components/Progress'
 import Accordian from './components/Accordian'
 import ToDoList from './components/ToDoList'
+import ChipsInput from './components/ChipsInput'
+import { CheckboxTree } from './components/CheckboxTree'
 
 function App() {
   const accordionData = [
@@ -29,7 +31,10 @@ function App() {
      {/* <StarRating /> */}
      {/* <Accordian data={accordionData} /> */}
      {/* <Progress/> */}
-     <ToDoList/>
+     {/* <ToDoList/> */}
+     {/* <ChipsInput></ChipsInput> */}
+     <CheckboxTree/>
+
     </>
   )
 }

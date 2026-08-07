@@ -20,3 +20,7 @@ overflow: hidden;
     text-align: right;
     /* overflow: hidden; */
 }
+
+.ml-3{
+    margin-left: 3px;
+}
